@@ -112,3 +112,8 @@ body {
 #menu th {
    font-weight: 700;
 }
+
+.Menu-Title {
+   font-size: 16pt;
+   color: #84449b;
+}
