@@ -3,7 +3,7 @@ html { height:100%; }
 body {
    margin: 0;
    padding: 0;
-   background-color: black;
+   background-color: white;
    width: 100%;
    height: 100%;
 }
@@ -22,7 +22,7 @@ body {
    width: 50%;
    height: 100%;
    float: left;
-   background-color: #89d0f0;
+   background-color: white;
 }
 
 #content-image {
@@ -32,6 +32,57 @@ body {
    background-color: #89d0f0;
    background-image: url("../img/background-map.png");
    float: left;
+}
+
+#content-image-border {
+   width: 96%;
+   height: 95%;
+   position: relative;
+   border: white 1em solid;
+}
+
+#logo {
+   height: 30%;
+   display: block;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+
+#IceCreamIcon {
+   position: absolute;
+   left: 49.5%;
+   top: 45%;
+   z-index: 100;
+   height: 50px;
+}
+
+#info {
+   width: 60%;
+   display: block;
+   margin: 0 auto;
+}
+#info ul {
+   padding: 0;
+}
+
+.info-piece {
+   list-style: none;
+}
+
+.info-piece img {
+   width: 10%;
+   display: block;
+   margin: 0 auto;
+}
+
+.info-piece h3 {
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   line-height: 10px;
+}
+
+.info-piece p {
+   font-family: 'Roboto', sans-serif;
 }
 
 #social {
@@ -49,13 +100,18 @@ body {
 }
 
 #menu-link {
-   font-family: 'Open Sans', sans-serif;
-   font-weight: 500;
-}
-
-#menu-link a {
+   display: block;
+   width: 100px;
+   background-color: #89d0f0;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
    text-decoration: none;
-   color: #84449b;
+   border-radius: 5px;
+   font-size: 12pt;
+   font-weight: 600;
+   padding: 10px 0 10px 0;
+   margin: 0 auto;
+   margin-top: 25px;
 }
 
 /** Menu **/
