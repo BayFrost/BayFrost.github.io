@@ -22,12 +22,13 @@
       width: 100%;
       float: left;
       height: 250px;
-      background-position: center;
-      background-size: 100%;
    }
 
    #content-image-border {
-      border: hidden;
+      background-position: center;
+      background-size: 100%;
+      margin: 0;
+      width: 100%;
    }
 
    #IceCreamIcon {
@@ -43,12 +44,8 @@
    }
 
    footer {
-      margin-top: 30%;
-   }
-}
-
-@media screen and (max-width: 400px) {
-   footer {
-      margin-top: 45%;
+      visibility: hidden;
+      margin: 0;
+      padding: 0;
    }
 }
