@@ -131,34 +131,3 @@ footer {
    margin: 0 auto;
    margin-top: 25px;
 }
-
-/** Menu **/
-#menu {
-   width: 96%;
-   text-align: left;
-   display: block;
-   margin: 0 auto;
-   padding-top: 10px;
-   padding-bottom: 10px;
-}
-
-#menu td, #menu th {
-   font-family: 'Lato', sans-serif;
-}
-
-#menu td {
-   font-weight: 300;
-}
-
-#menu td:last-child {
-   text-align: right;
-}
-
-#menu th {
-   font-weight: 700;
-}
-
-.Menu-Title {
-   font-size: 16pt;
-   color: #84449b;
-}
