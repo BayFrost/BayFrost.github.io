@@ -2,6 +2,14 @@
    .info-piece img {
       width: 15%;
    }
+
+   #menu-container {
+      width: 95%;
+   }
+
+   #body-image {
+      background-size: auto;
+   }
 }
 
 @media screen and (max-width: 600px) {
